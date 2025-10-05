@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  theme-manager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: youtune-theme-manager:latest
+    container_name: theme-manager
+    restart: unless-stopped
+    
+    volumes:
+      - ./themes:/app/themes
+      - ./logs:/app/logs
+    
+    environment:
+      - PYTHONUNBUFFERED=1
+      - LOG_LEVEL=INFO
+    
+    security_opt:
+      - no-new-privileges:true
+    
+    read_only: true
+    
+    tmpfs:
+      - /tmp
+    
+    cap_drop:
+      - ALL
+    
+    networks:
+      - theme-network
+
+networks:
+  theme-network:
+    driver: bridge

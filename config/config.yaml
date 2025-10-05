@@ -1,0 +1,48 @@
+# Theme Manager Configuration
+
+# Theme storage
+themes:
+  directory: "themes"
+  max_size: 524288000  # 500 MB
+  max_file_size: 10485760  # 10 MB
+
+# Security settings
+security:
+  enable_scanning: true
+  scan_timeout: 300  # seconds
+  max_compression_ratio: 100
+  allowed_extensions:
+    - .css
+    - .js
+    - .json
+    - .html
+    - .htm
+    - .png
+    - .jpg
+    - .jpeg
+    - .gif
+    - .svg
+    - .ico
+    - .woff
+    - .woff2
+    - .ttf
+    - .eot
+    - .md
+    - .txt
+
+# Validation settings
+validation:
+  required_files:
+    - theme.json
+  strict_mode: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "json"
+  file: "logs/theme_manager.log"
+
+# Monitoring
+monitoring:
+  enable_metrics: true
+  health_check_interval: 60  # seconds
