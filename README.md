@@ -41,6 +41,8 @@
 
 ## 🏃 Quick Start
 
+**New here?** Check out the [Quick Start Guide](QUICKSTART.md) for a step-by-step tutorial!
+
 ### Installation
 
 ```bash
