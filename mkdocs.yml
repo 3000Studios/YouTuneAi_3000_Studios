@@ -1,0 +1,35 @@
+site_name: YouTuneAi Theme Manager
+site_description: Fully automated, secure, production-ready zip file theme system
+site_author: 3000Studios
+repo_url: https://github.com/3000Studios/YouTuneAi_3000_Studios
+repo_name: 3000Studios/YouTuneAi_3000_Studios
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.code.annotate
+
+nav:
+  - Home: README.md
+  - Security: security.md
+  - Deployment: deployment.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+
+plugins:
+  - search
