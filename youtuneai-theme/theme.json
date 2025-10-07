@@ -1,0 +1,62 @@
+{
+  "name": "YouTuneAi",
+  "version": "1.0.0",
+  "description": "A modern, AI-powered WordPress theme for YouTuneAi.com featuring WooCommerce integration, revenue optimization, and cutting-edge AI features. Perfect for content creators, musicians, and digital entrepreneurs.",
+  "author": "3000Studios",
+  "author_uri": "https://3000studios.com",
+  "theme_uri": "https://youtuneai.com",
+  "license": "MIT",
+  "license_uri": "https://opensource.org/licenses/MIT",
+  "text_domain": "youtuneai",
+  "tags": [
+    "ai",
+    "music",
+    "ecommerce",
+    "woocommerce",
+    "custom-colors",
+    "custom-logo",
+    "custom-menu",
+    "editor-style",
+    "featured-images",
+    "flexible-header",
+    "footer-widgets",
+    "full-width-template",
+    "rtl-language-support",
+    "theme-options",
+    "threaded-comments",
+    "translation-ready",
+    "two-columns",
+    "block-styles",
+    "wide-blocks"
+  ],
+  "requires_wp": "6.0",
+  "requires_php": "7.4",
+  "tested_up_to": "6.7",
+  "features": {
+    "woocommerce": true,
+    "ai_features": true,
+    "revenue_optimization": true,
+    "custom_post_types": true,
+    "seo_optimized": true,
+    "responsive": true,
+    "accessibility_ready": true,
+    "translation_ready": true
+  },
+  "revenue": {
+    "google_adsense": true,
+    "affiliate_marketing": true,
+    "woocommerce_shop": true,
+    "subscription_ready": true,
+    "payment_gateways": [
+      "stripe",
+      "paypal",
+      "square"
+    ]
+  },
+  "support": {
+    "documentation": "https://youtuneai.com/docs",
+    "forum": "https://youtuneai.com/support",
+    "email": "support@3000studios.com"
+  },
+  "created_at": "2025-01-01T00:00:00Z"
+}

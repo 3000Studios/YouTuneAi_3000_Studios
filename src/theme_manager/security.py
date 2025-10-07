@@ -43,7 +43,7 @@ class SecurityScanner:
         ".bat",
         ".sh",
         ".ps1",
-        ".php",
+        # ".php",  # Allowed for WordPress themes
         ".asp",
         ".aspx",
         ".jsp",

@@ -1,0 +1,10 @@
+YouTuneAi Theme Screenshot Placeholder
+
+A proper screenshot.png (1200x900) should be created showing:
+- The homepage hero section with gradient text
+- Feature cards displaying AI capabilities
+- Modern dark theme design
+- WooCommerce product grid
+- Responsive navigation header
+
+This file is a placeholder. Replace with actual screenshot.png before final deployment.
